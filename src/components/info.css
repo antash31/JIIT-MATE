@@ -1,0 +1,108 @@
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    border: 5px outset var(--textColour);
+    width:600;
+    height: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--postBG);
+    border-radius: 8px;
+    padding:1.5em;
+    box-sizing: border-box;
+}
+.formBx
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inpBox
+{
+    width: 400px;
+    border:1px outset var(--textColour);
+    margin-bottom: 20px;
+    height:3em;
+    border-radius: 7px;
+    background-color: var(--textColour);
+    color:var(--appBG) ;
+    font-size: 15px;
+    font-family: var(--btnFontFamily);
+}
+h2
+{
+    margin-bottom: 20px;
+    font-family: var(--vintageText);
+    text-align: center;
+
+}
+
+.submitBtn
+{
+   height: 40px;
+   width: 120px;
+   cursor: pointer;
+   font-family: var(--vintageText);
+   background-color: var(--postBG);
+   border: 4px outset var(--textColor);
+   border-radius: 7px;
+   margin: 10px 20px 10px 20px;
+   color: var(--textColor);
+   padding: 7px;
+   box-shadow: 4px 4px 5px 3px #0e466b;
+
+   
+}
+
+.submitBtn:hover {
+    background-color: var(--textColor);
+    color: var(--postBG);
+    transform: scale(1.3);
+    transform-origin: center;
+    transition: 0.3s ease-out;
+  }
+
+  .checkBoxes
+  {
+      margin-bottom:30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      font-size: 16px;
+  }
+  
+  .check
+  {
+      height: 30px;
+      margin-right:3px;
+     background-color: var(--textColour);
+
+  }
+ 
+  .label_edit
+  {
+      font-family: var(--btnFontFamily);
+      font-weight: 900;
+      
+      margin-right: 20px;
+  }
+  .divDiv
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .divDiv:hover
+  {
+      transform: scale(1.2);
+      transition: 0.3s;
+  }

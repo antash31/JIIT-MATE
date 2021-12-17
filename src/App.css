@@ -1,0 +1,24 @@
+:root {
+  --appBG: #1b262c;
+  /* --appBG: #000000; */
+}
+.App {
+  margin: 0;
+  background-color: var(--appBG);
+
+  height: auto;
+
+  width: auto;
+  
+
+}
+
+.information
+{
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(3.5em);
+}

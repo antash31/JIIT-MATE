@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap");
+:root {
+  --boxBG: #0f4c75;
+  --textColour: #bbe1fa;
+  --textFontFamily: "Outfit", sans-serif;
+}
+.Box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 4px outset var(--textColour); 
+   background-color: var(--boxBG);
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--textFontFamily);
+  margin-bottom: 5px;
+}
+/* 
+.Box:hover {
+  border: 1px solid var;
+} */
+
+.Box__info {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.Box__info > h5 {
+  color: var(--textColour);
+  font-weight: 300;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Box__ques {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.Box__ques > p {
+  color: var(--textColour);
+  font-weight: bold;
+  font-size: 20px;
+}

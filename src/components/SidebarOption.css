@@ -1,0 +1,45 @@
+.sidebarOptions {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.sidebarOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.sidebarButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px;
+  border: 4px outset var(--textColour);
+  cursor: pointer;
+  margin-bottom: 16px;
+  background-color: var(--postBG);
+  border-radius: 7px;
+  color: var(--textColour);
+  width: 280px;
+  margin-right: 10px;
+  font-family: var(--vintageText);
+  font-size: 20px;
+  text-decoration: none;
+}
+.sidebarButton:hover {
+  background-color: var(--textColour);
+  color: var(--postBG);
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s transform;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  font-family: var(--vintageText);
+  font-size: 25px;
+}
